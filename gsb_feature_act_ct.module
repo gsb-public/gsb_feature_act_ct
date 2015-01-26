@@ -5,3 +5,47 @@
  */
 
 include_once 'gsb_feature_act_ct.features.inc';
+
+/**
+ * Implements hook_field_attach_form().
+ */
+function gsb_feature_act_ct_field_attach_form($entity_type, $entity, &$form, &$form_state, $langcode) {
+  // $langcode might be NULL.
+  $langcode = $langcode ?: LANGUAGE_NONE;
+
+  // If this is a field_act_project_team_role field collection, and the entity reference is set,
+  // setup the states for visibility
+  if ($entity_type == 'field_collection_item' && $entity->field_name == 'field_act_project_team_role') {
+    $map = array(
+      'alumni' => array(
+        'field_alumni_team_member',
+      ),
+      'other' => array(
+        'field_act_full_name',
+      ),
+    );
+
+    // Build up the location of the field in the form.
+    $parents = $form['#parents'];
+    $parents[] = 'field_act_alumni_other';
+    $parents[] = $langcode;
+    $first = array_shift($parents);
+    $parents = $first . '[' . implode('][', $parents) . ']';
+
+    // Loop through each possible value for the field_act_alumni_other field,
+    // controlling the visibility of the dependent fields.
+    foreach ($map as $value => $fields) {
+      foreach ($fields as $field) {
+        $form[$field]['#states'] = array(
+          'visible' => array(
+            ':input[name="' . $parents . '"]' => array(
+              array('value' => $value),
+            ),
+          ),
+        );
+      }
+    }
+    // remove "n/a" as an option for the field_act_alumni_other
+    unset($form['field_act_alumni_other'][$langcode]['#options']['_none']);
+  }
+}
