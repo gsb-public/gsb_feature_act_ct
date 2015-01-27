@@ -22,7 +22,7 @@ function gsb_feature_act_ct_ctools_plugin_api($module = NULL, $api = NULL) {
 function gsb_feature_act_ct_node_info() {
   $items = array(
     'act' => array(
-      'name' => t('ACT'),
+      'name' => t('ACT Project'),
       'base' => 'node_content',
       'description' => t('Add an ACT Project.'),
       'has_title' => '1',
