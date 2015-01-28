@@ -183,7 +183,7 @@ function gsb_feature_act_ct_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Project Details',
-    'weight' => '13',
+    'weight' => '12',
     'children' => array(
       0 => 'group_final_report_outline',
       1 => 'group_issue',
@@ -297,7 +297,7 @@ function gsb_feature_act_ct_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Related Content',
-    'weight' => '16',
+    'weight' => '15',
     'children' => array(
       0 => 'field_alumni_ref',
       1 => 'field_file_unlimited_public',
@@ -356,7 +356,7 @@ function gsb_feature_act_ct_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Taxonomy',
-    'weight' => '10',
+    'weight' => '9',
     'children' => array(
       0 => 'group_organization_type',
       1 => 'group_project_focus',
