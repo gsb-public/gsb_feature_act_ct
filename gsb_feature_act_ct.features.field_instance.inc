@@ -2117,7 +2117,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
   t('ACT Project Team, role');
   t('ACT Round');
   t('Alumni');
-  t('CTAs');
+  t('CTA');
   t('Faculty');
   t('Files');
   t('Final Report Outline');
