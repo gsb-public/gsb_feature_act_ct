@@ -398,5 +398,72 @@ function gsb_feature_act_ct_field_group_info() {
   );
   $export['group_useful_items|node|act|form'] = $field_group;
 
+  $field_group = new stdClass();
+  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
+  $field_group->api_version = 1;
+  $field_group->identifier = 'group_wrapper_act_info|node|act|default';
+  $field_group->group_name = 'group_wrapper_act_info';
+  $field_group->entity_type = 'node';
+  $field_group->bundle = 'act';
+  $field_group->mode = 'default';
+  $field_group->parent_name = '';
+  $field_group->data = array(
+    'label' => 'ACT Info',
+    'weight' => '4',
+    'children' => array(
+      0 => 'field_location',
+      1 => 'field_act_organization_type',
+      2 => 'field_act_project_focus',
+      3 => 'field_act_project_type',
+      4 => 'field_act_round',
+    ),
+    'format_type' => 'div',
+    'format_settings' => array(
+      'label' => 'ACT Info',
+      'instance_settings' => array(
+        'classes' => '',
+        'description' => '',
+        'show_label' => '0',
+        'label_element' => 'h3',
+        'effect' => 'none',
+        'speed' => 'none',
+      ),
+      'formatter' => 'open',
+    ),
+  );
+  $export['group_wrapper_act_info|node|act|default'] = $field_group;
+
+  $field_group = new stdClass();
+  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
+  $field_group->api_version = 1;
+  $field_group->identifier = 'group_wrapper_related|node|act|default';
+  $field_group->group_name = 'group_wrapper_related';
+  $field_group->entity_type = 'node';
+  $field_group->bundle = 'act';
+  $field_group->mode = 'default';
+  $field_group->parent_name = '';
+  $field_group->data = array(
+    'label' => 'Related',
+    'weight' => '17',
+    'children' => array(
+      0 => 'field_alumni_ref',
+      1 => 'field_file_unlimited_public',
+      2 => 'field_person_fac_ref',
+      3 => 'field_related_idea_story',
+      4 => 'field_related_other_unlimited',
+      5 => 'field_link_related_unlimited',
+      6 => 'related_title',
+    ),
+    'format_type' => 'fieldset',
+    'format_settings' => array(
+      'formatter' => 'collapsible',
+      'instance_settings' => array(
+        'description' => '',
+        'classes' => '',
+      ),
+    ),
+  );
+  $export['group_wrapper_related|node|act|default'] = $field_group;
+
   return $export;
 }
