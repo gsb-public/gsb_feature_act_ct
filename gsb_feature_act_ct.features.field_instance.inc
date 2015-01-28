@@ -1778,7 +1778,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'node',
     'field_name' => 'field_link_unlimited',
-    'label' => 'CTAs',
+    'label' => 'CTA',
     'required' => 0,
     'settings' => array(
       'attributes' => array(
