@@ -474,6 +474,13 @@ function gsb_feature_act_ct_ds_field_settings_info() {
         ),
       ),
     ),
+    'field_infographic' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+        ),
+      ),
+    ),
   );
   $export['node|act|default'] = $ds_fieldsetting;
 
@@ -554,22 +561,10 @@ function gsb_feature_act_ct_ds_layout_settings_info() {
   $ds_layout->layout = 'ds_2col';
   $ds_layout->settings = array(
     'regions' => array(
-      'right' => array(
-        0 => 'related_title',
-        3 => 'field_person_fac_ref',
-        4 => 'field_alumni_ref',
-        7 => 'field_related_idea_story',
-        9 => 'field_related_other_unlimited',
-        12 => 'field_link_related_unlimited',
-        13 => 'field_file_unlimited_public',
-        27 => 'field_link_unlimited',
-        28 => 'field_act_project_team_role',
-        29 => 'group_wrapper_related',
-      ),
       'left' => array(
-        1 => 'title',
-        2 => 'field_link_single',
-        5 => 'field_act_org_location',
+        0 => 'title',
+        3 => 'field_link_single',
+        4 => 'field_act_org_location',
         6 => 'field_image_logo_single_public',
         8 => 'group_wrapper_act_info',
         10 => 'field_act_round',
@@ -587,15 +582,28 @@ function gsb_feature_act_ct_ds_layout_settings_info() {
         24 => 'field_act_key_conclusions',
         25 => 'field_act_final_report_outline',
         26 => 'field_act_useful_item',
+        27 => 'field_infographic',
+      ),
+      'right' => array(
+        1 => 'related_title',
+        2 => 'field_person_fac_ref',
+        5 => 'field_alumni_ref',
+        7 => 'field_related_idea_story',
+        9 => 'field_related_other_unlimited',
+        12 => 'field_link_related_unlimited',
+        13 => 'field_file_unlimited_public',
+        28 => 'field_link_unlimited',
+        29 => 'field_act_project_team_role',
+        30 => 'group_wrapper_related',
       ),
     ),
     'fields' => array(
-      'related_title' => 'right',
       'title' => 'left',
-      'field_link_single' => 'left',
+      'related_title' => 'right',
       'field_person_fac_ref' => 'right',
-      'field_alumni_ref' => 'right',
+      'field_link_single' => 'left',
       'field_act_org_location' => 'left',
+      'field_alumni_ref' => 'right',
       'field_image_logo_single_public' => 'left',
       'field_related_idea_story' => 'right',
       'group_wrapper_act_info' => 'left',
@@ -617,6 +625,7 @@ function gsb_feature_act_ct_ds_layout_settings_info() {
       'field_act_key_conclusions' => 'left',
       'field_act_final_report_outline' => 'left',
       'field_act_useful_item' => 'left',
+      'field_infographic' => 'left',
       'field_link_unlimited' => 'right',
       'field_act_project_team_role' => 'right',
       'group_wrapper_related' => 'right',
