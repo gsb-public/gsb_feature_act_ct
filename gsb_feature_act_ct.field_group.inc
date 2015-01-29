@@ -444,7 +444,7 @@ function gsb_feature_act_ct_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Related',
-    'weight' => '17',
+    'weight' => '18',
     'children' => array(
       0 => 'field_alumni_ref',
       1 => 'field_file_unlimited_public',
