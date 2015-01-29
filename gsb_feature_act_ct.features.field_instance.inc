@@ -956,7 +956,11 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'bundle' => 'act',
     'custom_add_another' => '',
     'custom_remove' => '',
-    'default_value' => NULL,
+    'default_value' => array(
+      0 => array(
+        'tid' => 29661,
+      ),
+    ),
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -982,7 +986,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_act_project_type',
     'label' => 'Project Type',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'custom_add_another' => '',
       'custom_remove' => '',
@@ -1558,7 +1562,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'node',
     'field_name' => 'field_image_single_public',
-    'label' => 'Photo',
+    'label' => 'Organization photo',
     'required' => 0,
     'settings' => array(
       'alt_field' => 0,
@@ -2201,7 +2205,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
   t('Organization Location');
   t('Organization Type');
   t('Organization URL');
-  t('Photo');
+  t('Organization photo');
   t('Project Details');
   t('Project Focus');
   t('Project Location');

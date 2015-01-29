@@ -7,6 +7,16 @@
 include_once 'gsb_feature_act_ct.features.inc';
 
 /**
+ * Implements hook_form_FORM_ID_alter
+ */
+function gsb_feature_act_ct_form_node_form_alter(&$form, &$form_state) {
+  if ($form['#id'] == 'act-node-form') {
+    $language = $form['language']['#value'];
+    unset($form['field_act_project_type'][$language]['#options']['_none']);
+  }
+}
+
+/**
  * Implements hook_field_attach_form().
  */
 function gsb_feature_act_ct_field_attach_form($entity_type, $entity, &$form, &$form_state, $langcode) {
