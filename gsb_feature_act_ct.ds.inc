@@ -183,7 +183,7 @@ function gsb_feature_act_ct_ds_field_settings_info() {
       'formatter_settings' => array(
         'ft' => array(
           'func' => 'theme_ds_field_expert',
-          'lb' => 'Project Location —',
+          'lb' => 'Project Location –',
           'lb-col' => TRUE,
           'ow' => TRUE,
           'ow-el' => 'div',
@@ -320,7 +320,7 @@ function gsb_feature_act_ct_ds_field_settings_info() {
       'formatter_settings' => array(
         'ft' => array(
           'func' => 'theme_ds_field_expert',
-          'lb' => 'Organization Type —',
+          'lb' => 'Organization Type –',
           'lb-col' => TRUE,
           'ow' => TRUE,
           'ow-el' => 'div',
@@ -335,7 +335,7 @@ function gsb_feature_act_ct_ds_field_settings_info() {
       'formatter_settings' => array(
         'ft' => array(
           'func' => 'theme_ds_field_expert',
-          'lb' => 'Project Focus —',
+          'lb' => 'Project Focus –',
           'lb-col' => TRUE,
           'ow' => TRUE,
           'ow-el' => 'div',
@@ -394,7 +394,7 @@ function gsb_feature_act_ct_ds_field_settings_info() {
       'formatter_settings' => array(
         'ft' => array(
           'func' => 'theme_ds_field_expert',
-          'lb' => 'Project Type —',
+          'lb' => 'Project Type –',
           'lb-col' => TRUE,
           'ow' => TRUE,
           'ow-el' => 'div',
@@ -409,7 +409,7 @@ function gsb_feature_act_ct_ds_field_settings_info() {
       'formatter_settings' => array(
         'ft' => array(
           'func' => 'theme_ds_field_expert',
-          'lb' => 'Round —',
+          'lb' => 'Round –',
           'lb-col' => TRUE,
           'ow' => TRUE,
           'ow-el' => 'div',
