@@ -956,11 +956,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'bundle' => 'act',
     'custom_add_another' => '',
     'custom_remove' => '',
-    'default_value' => array(
-      0 => array(
-        'tid' => 29661,
-      ),
-    ),
+    'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
     'display' => array(
