@@ -21,7 +21,7 @@ function gsb_feature_act_ct_field_group_info() {
   $field_group->parent_name = 'group_project_details';
   $field_group->data = array(
     'label' => 'Final Report Outline',
-    'weight' => '22',
+    'weight' => '31',
     'children' => array(
       0 => 'field_act_final_report_outline',
     ),
@@ -48,7 +48,7 @@ function gsb_feature_act_ct_field_group_info() {
   $field_group->parent_name = 'group_project_details';
   $field_group->data = array(
     'label' => 'Issue',
-    'weight' => '16',
+    'weight' => '25',
     'children' => array(
       0 => 'field_act_issue',
     ),
@@ -75,7 +75,7 @@ function gsb_feature_act_ct_field_group_info() {
   $field_group->parent_name = 'group_project_details';
   $field_group->data = array(
     'label' => 'Key Conclusions',
-    'weight' => '21',
+    'weight' => '30',
     'children' => array(
       0 => 'field_act_key_conclusions',
     ),
@@ -102,7 +102,7 @@ function gsb_feature_act_ct_field_group_info() {
   $field_group->parent_name = 'group_project_details';
   $field_group->data = array(
     'label' => 'Key Recommendations',
-    'weight' => '20',
+    'weight' => '29',
     'children' => array(
       0 => 'field_act_key_recommendations',
     ),
@@ -156,7 +156,7 @@ function gsb_feature_act_ct_field_group_info() {
   $field_group->parent_name = 'group_project_details';
   $field_group->data = array(
     'label' => 'Organization',
-    'weight' => '15',
+    'weight' => '24',
     'children' => array(
       0 => 'field_act_organization',
     ),
@@ -183,7 +183,7 @@ function gsb_feature_act_ct_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Project Details',
-    'weight' => '12',
+    'weight' => '13',
     'children' => array(
       0 => 'group_final_report_outline',
       1 => 'group_issue',
@@ -243,7 +243,7 @@ function gsb_feature_act_ct_field_group_info() {
   $field_group->parent_name = 'group_project_details';
   $field_group->data = array(
     'label' => 'Project Objectives',
-    'weight' => '18',
+    'weight' => '27',
     'children' => array(
       0 => 'field_act_project_objectives',
     ),
@@ -270,7 +270,7 @@ function gsb_feature_act_ct_field_group_info() {
   $field_group->parent_name = 'group_project_details';
   $field_group->data = array(
     'label' => 'Project Overview',
-    'weight' => '19',
+    'weight' => '28',
     'children' => array(
       0 => 'field_act_project_overview',
     ),
@@ -297,7 +297,7 @@ function gsb_feature_act_ct_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Related Content',
-    'weight' => '15',
+    'weight' => '16',
     'children' => array(
       0 => 'field_alumni_ref',
       1 => 'field_file_unlimited_public',
@@ -329,7 +329,7 @@ function gsb_feature_act_ct_field_group_info() {
   $field_group->parent_name = 'group_project_details';
   $field_group->data = array(
     'label' => 'Situation',
-    'weight' => '17',
+    'weight' => '26',
     'children' => array(
       0 => 'field_act_situation',
     ),
@@ -356,7 +356,7 @@ function gsb_feature_act_ct_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Taxonomy',
-    'weight' => '9',
+    'weight' => '10',
     'children' => array(
       0 => 'group_organization_type',
       1 => 'group_project_focus',
@@ -382,7 +382,7 @@ function gsb_feature_act_ct_field_group_info() {
   $field_group->parent_name = 'group_project_details';
   $field_group->data = array(
     'label' => 'Useful Items',
-    'weight' => '23',
+    'weight' => '32',
     'children' => array(
       0 => 'field_act_useful_item',
     ),
