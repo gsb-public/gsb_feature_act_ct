@@ -1659,7 +1659,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
             'pathauto' => 0,
             'transliterate' => 0,
           ),
-          'value' => '',
+          'value' => 'act/[node:title]-[node:field_act_round]',
         ),
         'replace_existing_files' => 0,
         'retroactive_update' => 0,
