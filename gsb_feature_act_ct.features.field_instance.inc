@@ -1435,6 +1435,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
+            'act' => array(
+              'weight' => 0,
+            ),
             'full_html' => array(
               'weight' => 1,
             ),
