@@ -88,6 +88,9 @@ function gsb_feature_act_ct_strongarm() {
       'alumni_name' => array(
         'custom_settings' => FALSE,
       ),
+      'act_project_listing' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
