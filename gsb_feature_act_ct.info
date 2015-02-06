@@ -86,6 +86,7 @@ features[node][] = act
 features[taxonomy][] = organization_type
 features[taxonomy][] = project_focus
 features[taxonomy][] = project_type
+features[user_permission][] = use text format act
 features[variable][] = field_bundle_settings_node__act
 features[variable][] = menu_options_act
 features[variable][] = menu_parent_act
