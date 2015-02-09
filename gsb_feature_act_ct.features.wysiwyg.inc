@@ -22,8 +22,15 @@ function gsb_feature_act_ct_wysiwyg_default_profiles() {
       'language' => 'en',
       'buttons' => array(
         'default' => array(
+          'Bold' => 1,
+          'Italic' => 1,
+          'BulletedList' => 1,
+          'NumberedList' => 1,
           'Undo' => 1,
           'Redo' => 1,
+          'Link' => 1,
+          'Unlink' => 1,
+          'Anchor' => 1,
           'PasteText' => 1,
           'PasteFromWord' => 1,
         ),
