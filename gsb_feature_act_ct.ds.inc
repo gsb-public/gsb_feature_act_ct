@@ -61,6 +61,137 @@ function gsb_feature_act_ct_ds_field_settings_info() {
 
   $ds_fieldsetting = new stdClass();
   $ds_fieldsetting->api_version = 1;
+  $ds_fieldsetting->id = 'node|act|act_project_by_criteria';
+  $ds_fieldsetting->entity_type = 'node';
+  $ds_fieldsetting->bundle = 'act';
+  $ds_fieldsetting->view_mode = 'act_project_by_criteria';
+  $ds_fieldsetting->settings = array(
+    'title' => array(
+      'weight' => '0',
+      'label' => 'hidden',
+      'format' => 'default',
+      'formatter_settings' => array(
+        'link' => '1',
+        'wrapper' => 'h2',
+        'class' => '',
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+        'conditions' => array(),
+      ),
+    ),
+    'field_link_single' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+    'field_location' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'lb' => 'Project Location –',
+          'lb-col' => TRUE,
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+    'field_act_org_location' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+    'field_act_organization_type' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'lb' => 'Organization Type –',
+          'lb-col' => TRUE,
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+    'field_act_project_focus' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'lb' => 'Project Focus –',
+          'lb-col' => TRUE,
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+    'field_act_project_type' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'lb' => 'Project Type –',
+          'lb-col' => TRUE,
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+    'field_act_round' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'lb' => 'Round –',
+          'lb-col' => TRUE,
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+  );
+  $export['node|act|act_project_by_criteria'] = $ds_fieldsetting;
+
+  $ds_fieldsetting = new stdClass();
+  $ds_fieldsetting->api_version = 1;
   $ds_fieldsetting->id = 'node|act|act_project_listing';
   $ds_fieldsetting->entity_type = 'node';
   $ds_fieldsetting->bundle = 'act';
@@ -659,6 +790,50 @@ function gsb_feature_act_ct_ds_layout_settings_info() {
 
   $ds_layout = new stdClass();
   $ds_layout->api_version = 1;
+  $ds_layout->id = 'node|act|act_project_by_criteria';
+  $ds_layout->entity_type = 'node';
+  $ds_layout->bundle = 'act';
+  $ds_layout->view_mode = 'act_project_by_criteria';
+  $ds_layout->layout = 'ds_1col';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'ds_content' => array(
+        0 => 'title',
+        1 => 'field_act_org_location',
+        2 => 'field_link_single',
+        3 => 'group_wrapper_act_info',
+        4 => 'field_act_round',
+        5 => 'field_location',
+        6 => 'field_act_project_type',
+        7 => 'field_act_project_focus',
+        8 => 'field_act_organization_type',
+      ),
+    ),
+    'fields' => array(
+      'title' => 'ds_content',
+      'field_act_org_location' => 'ds_content',
+      'field_link_single' => 'ds_content',
+      'group_wrapper_act_info' => 'ds_content',
+      'field_act_round' => 'ds_content',
+      'field_location' => 'ds_content',
+      'field_act_project_type' => 'ds_content',
+      'field_act_project_focus' => 'ds_content',
+      'field_act_organization_type' => 'ds_content',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'ds_content' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+  );
+  $export['node|act|act_project_by_criteria'] = $ds_layout;
+
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
   $ds_layout->id = 'node|act|act_project_listing';
   $ds_layout->entity_type = 'node';
   $ds_layout->bundle = 'act';
@@ -704,8 +879,20 @@ function gsb_feature_act_ct_ds_layout_settings_info() {
   $ds_layout->layout = 'ds_2col';
   $ds_layout->settings = array(
     'regions' => array(
+      'right' => array(
+        0 => 'related_title',
+        2 => 'field_person_fac_ref',
+        5 => 'field_alumni_ref',
+        7 => 'field_related_idea_story',
+        9 => 'field_related_other_unlimited',
+        12 => 'field_link_related_unlimited',
+        13 => 'field_file_unlimited_public',
+        28 => 'field_link_unlimited',
+        29 => 'field_act_project_team_role',
+        30 => 'group_wrapper_related',
+      ),
       'left' => array(
-        0 => 'title',
+        1 => 'title',
         3 => 'field_link_single',
         4 => 'field_act_org_location',
         6 => 'field_image_logo_single_public',
@@ -727,22 +914,10 @@ function gsb_feature_act_ct_ds_layout_settings_info() {
         26 => 'field_act_useful_item',
         27 => 'field_infographic',
       ),
-      'right' => array(
-        1 => 'related_title',
-        2 => 'field_person_fac_ref',
-        5 => 'field_alumni_ref',
-        7 => 'field_related_idea_story',
-        9 => 'field_related_other_unlimited',
-        12 => 'field_link_related_unlimited',
-        13 => 'field_file_unlimited_public',
-        28 => 'field_link_unlimited',
-        29 => 'field_act_project_team_role',
-        30 => 'group_wrapper_related',
-      ),
     ),
     'fields' => array(
-      'title' => 'left',
       'related_title' => 'right',
+      'title' => 'left',
       'field_person_fac_ref' => 'right',
       'field_link_single' => 'left',
       'field_act_org_location' => 'left',
@@ -794,6 +969,15 @@ function gsb_feature_act_ct_ds_layout_settings_info() {
  */
 function gsb_feature_act_ct_ds_view_modes_info() {
   $export = array();
+
+  $ds_view_mode = new stdClass();
+  $ds_view_mode->api_version = 1;
+  $ds_view_mode->view_mode = 'act_project_by_criteria';
+  $ds_view_mode->label = 'ACT Project by criteria';
+  $ds_view_mode->entities = array(
+    'node' => 'node',
+  );
+  $export['act_project_by_criteria'] = $ds_view_mode;
 
   $ds_view_mode = new stdClass();
   $ds_view_mode->api_version = 1;

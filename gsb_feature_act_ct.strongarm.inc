@@ -91,6 +91,9 @@ function gsb_feature_act_ct_strongarm() {
       'act_project_listing' => array(
         'custom_settings' => TRUE,
       ),
+      'act_project_by_criteria' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(

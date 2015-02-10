@@ -19,6 +19,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 30,
+      ),
       'act_project_listing' => array(
         'label' => 'above',
         'settings' => array(),
@@ -49,10 +55,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
-          'act' => 'act',
           'full_html' => 0,
           'gsb_html_text' => 0,
-          'gsb_wysiwyg_text' => 0,
+          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
           'image_resource_caption' => 0,
           'markdown' => 0,
           'plain_text' => 0,
@@ -62,9 +67,6 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
-            'act' => array(
-              'weight' => 0,
-            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -123,6 +125,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 24,
+      ),
       'act_project_listing' => array(
         'label' => 'above',
         'settings' => array(),
@@ -153,10 +161,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
-          'act' => 'act',
           'full_html' => 0,
           'gsb_html_text' => 0,
-          'gsb_wysiwyg_text' => 0,
+          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
           'image_resource_caption' => 0,
           'markdown' => 0,
           'plain_text' => 0,
@@ -166,9 +173,6 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
-            'act' => array(
-              'weight' => 0,
-            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -227,6 +231,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 29,
+      ),
       'act_project_listing' => array(
         'label' => 'above',
         'settings' => array(),
@@ -257,10 +267,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
-          'act' => 'act',
           'full_html' => 0,
           'gsb_html_text' => 0,
-          'gsb_wysiwyg_text' => 0,
+          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
           'image_resource_caption' => 0,
           'markdown' => 0,
           'plain_text' => 0,
@@ -270,9 +279,6 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
-            'act' => array(
-              'weight' => 0,
-            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -331,6 +337,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 28,
+      ),
       'act_project_listing' => array(
         'label' => 'above',
         'settings' => array(),
@@ -361,10 +373,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
-          'act' => 'act',
           'full_html' => 0,
           'gsb_html_text' => 0,
-          'gsb_wysiwyg_text' => 0,
+          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
           'image_resource_caption' => 0,
           'markdown' => 0,
           'plain_text' => 0,
@@ -374,9 +385,6 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
-            'act' => array(
-              'weight' => 0,
-            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -435,6 +443,15 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
+        'weight' => 1,
+      ),
       'act_project_listing' => array(
         'label' => 'inline',
         'settings' => array(),
@@ -477,9 +494,6 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
-            'act' => array(
-              'weight' => 0,
-            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -536,6 +550,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 21,
+      ),
       'act_project_listing' => array(
         'label' => 'above',
         'settings' => array(),
@@ -566,10 +586,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
-          'act' => 'act',
           'full_html' => 0,
           'gsb_html_text' => 0,
-          'gsb_wysiwyg_text' => 0,
+          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
           'image_resource_caption' => 0,
           'markdown' => 0,
           'plain_text' => 0,
@@ -579,9 +598,6 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
-            'act' => array(
-              'weight' => 0,
-            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -640,6 +656,17 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'inline',
+        'module' => 'ds',
+        'settings' => array(
+          'conditions' => array(),
+          'taxonomy_term_link' => 0,
+          'taxonomy_term_separator' => ',',
+        ),
+        'type' => 'ds_taxonomy_separator',
+        'weight' => 8,
+      ),
       'act_project_listing' => array(
         'label' => 'inline',
         'module' => 'ds',
@@ -700,6 +727,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 37,
+      ),
       'act_project_listing' => array(
         'label' => 'above',
         'settings' => array(),
@@ -750,6 +783,17 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'inline',
+        'module' => 'ds',
+        'settings' => array(
+          'conditions' => array(),
+          'taxonomy_term_link' => 0,
+          'taxonomy_term_separator' => ',',
+        ),
+        'type' => 'ds_taxonomy_separator',
+        'weight' => 7,
+      ),
       'act_project_listing' => array(
         'label' => 'inline',
         'module' => 'ds',
@@ -811,6 +855,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 36,
+      ),
       'act_project_listing' => array(
         'label' => 'above',
         'settings' => array(),
@@ -841,10 +891,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
-          'act' => 'act',
           'full_html' => 0,
           'gsb_html_text' => 0,
-          'gsb_wysiwyg_text' => 0,
+          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
           'image_resource_caption' => 0,
           'markdown' => 0,
           'plain_text' => 0,
@@ -854,9 +903,6 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
-            'act' => array(
-              'weight' => 0,
-            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -915,6 +961,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 26,
+      ),
       'act_project_listing' => array(
         'label' => 'above',
         'settings' => array(),
@@ -945,10 +997,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
-          'act' => 'act',
           'full_html' => 0,
           'gsb_html_text' => 0,
-          'gsb_wysiwyg_text' => 0,
+          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
           'image_resource_caption' => 0,
           'markdown' => 0,
           'plain_text' => 0,
@@ -958,9 +1009,6 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
-            'act' => array(
-              'weight' => 0,
-            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -1019,6 +1067,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 27,
+      ),
       'act_project_listing' => array(
         'label' => 'above',
         'settings' => array(),
@@ -1073,6 +1127,17 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'inline',
+        'module' => 'ds',
+        'settings' => array(
+          'conditions' => array(),
+          'taxonomy_term_link' => 0,
+          'taxonomy_term_separator' => '',
+        ),
+        'type' => 'ds_taxonomy_separator',
+        'weight' => 6,
+      ),
       'act_project_listing' => array(
         'label' => 'inline',
         'module' => 'ds',
@@ -1133,6 +1198,15 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'inline',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_plain',
+        'weight' => 4,
+      ),
       'act_project_listing' => array(
         'label' => 'inline',
         'module' => 'text',
@@ -1178,9 +1252,6 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
-            'act' => array(
-              'weight' => 0,
-            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -1237,6 +1308,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 34,
+      ),
       'act_project_listing' => array(
         'label' => 'above',
         'settings' => array(),
@@ -1267,10 +1344,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
-          'act' => 'act',
           'full_html' => 0,
           'gsb_html_text' => 0,
-          'gsb_wysiwyg_text' => 0,
+          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
           'image_resource_caption' => 0,
           'markdown' => 0,
           'plain_text' => 0,
@@ -1280,9 +1356,6 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
-            'act' => array(
-              'weight' => 0,
-            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -1345,6 +1418,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 25,
+      ),
       'act_project_listing' => array(
         'label' => 'above',
         'settings' => array(),
@@ -1395,6 +1474,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 35,
+      ),
       'act_project_listing' => array(
         'label' => 'above',
         'settings' => array(),
@@ -1425,10 +1510,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
-          'act' => 'act',
           'full_html' => 0,
           'gsb_html_text' => 0,
-          'gsb_wysiwyg_text' => 0,
+          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
           'image_resource_caption' => 0,
           'markdown' => 0,
           'plain_text' => 0,
@@ -1438,9 +1522,6 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
-            'act' => array(
-              'weight' => 0,
-            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -1499,6 +1580,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 19,
+      ),
       'act_project_listing' => array(
         'label' => 'hidden',
         'settings' => array(),
@@ -1556,6 +1643,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 17,
+      ),
       'act_project_listing' => array(
         'label' => 'hidden',
         'settings' => array(),
@@ -1633,6 +1726,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 16,
+      ),
       'act_project_listing' => array(
         'label' => 'hidden',
         'settings' => array(),
@@ -1717,6 +1816,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 23,
+      ),
       'act_project_listing' => array(
         'label' => 'hidden',
         'settings' => array(),
@@ -1801,6 +1906,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 18,
+      ),
       'act_project_listing' => array(
         'label' => 'hidden',
         'settings' => array(),
@@ -1886,6 +1997,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 22,
+      ),
       'act_project_listing' => array(
         'label' => 'hidden',
         'settings' => array(),
@@ -1962,6 +2079,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 32,
+      ),
       'act_project_listing' => array(
         'label' => 'hidden',
         'settings' => array(),
@@ -2038,6 +2161,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 20,
+      ),
       'act_project_listing' => array(
         'label' => 'hidden',
         'settings' => array(),
@@ -2114,6 +2243,15 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'inline',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_plain',
+        'weight' => 5,
+      ),
       'act_project_listing' => array(
         'label' => 'inline',
         'module' => 'text',
@@ -2220,6 +2358,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 31,
+      ),
       'act_project_listing' => array(
         'label' => 'above',
         'settings' => array(),
@@ -2270,6 +2414,15 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'hidden',
+        'module' => 'link',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'link_plain',
+        'weight' => 2,
+      ),
       'act_project_listing' => array(
         'label' => 'hidden',
         'settings' => array(),
@@ -2328,6 +2481,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 33,
+      ),
       'act_project_listing' => array(
         'label' => 'hidden',
         'settings' => array(),
@@ -2386,6 +2545,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 15,
+      ),
       'act_project_listing' => array(
         'label' => 'hidden',
         'settings' => array(),
@@ -2439,6 +2604,12 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'act_project_by_criteria' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 38,
+      ),
       'act_project_listing' => array(
         'label' => 'above',
         'settings' => array(),
