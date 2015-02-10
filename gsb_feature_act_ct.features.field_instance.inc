@@ -55,9 +55,10 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
+          'act' => 'act',
           'full_html' => 0,
           'gsb_html_text' => 0,
-          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
+          'gsb_wysiwyg_text' => 0,
           'image_resource_caption' => 0,
           'markdown' => 0,
           'plain_text' => 0,
@@ -67,6 +68,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
+            'act' => array(
+              'weight' => 0,
+            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -161,9 +165,10 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
+          'act' => 'act',
           'full_html' => 0,
           'gsb_html_text' => 0,
-          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
+          'gsb_wysiwyg_text' => 0,
           'image_resource_caption' => 0,
           'markdown' => 0,
           'plain_text' => 0,
@@ -173,6 +178,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
+            'act' => array(
+              'weight' => 0,
+            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -267,9 +275,10 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
+          'act' => 'act',
           'full_html' => 0,
           'gsb_html_text' => 0,
-          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
+          'gsb_wysiwyg_text' => 0,
           'image_resource_caption' => 0,
           'markdown' => 0,
           'plain_text' => 0,
@@ -279,6 +288,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
+            'act' => array(
+              'weight' => 0,
+            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -373,9 +385,10 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
+          'act' => 'act',
           'full_html' => 0,
           'gsb_html_text' => 0,
-          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
+          'gsb_wysiwyg_text' => 0,
           'image_resource_caption' => 0,
           'markdown' => 0,
           'plain_text' => 0,
@@ -385,6 +398,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
+            'act' => array(
+              'weight' => 0,
+            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -586,9 +602,10 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
+          'act' => 'act',
           'full_html' => 0,
           'gsb_html_text' => 0,
-          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
+          'gsb_wysiwyg_text' => 0,
           'image_resource_caption' => 0,
           'markdown' => 0,
           'plain_text' => 0,
@@ -598,6 +615,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
+            'act' => array(
+              'weight' => 0,
+            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -891,9 +911,10 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
+          'act' => 'act',
           'full_html' => 0,
           'gsb_html_text' => 0,
-          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
+          'gsb_wysiwyg_text' => 0,
           'image_resource_caption' => 0,
           'markdown' => 0,
           'plain_text' => 0,
@@ -903,6 +924,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
+            'act' => array(
+              'weight' => 0,
+            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -997,9 +1021,10 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
+          'act' => 'act',
           'full_html' => 0,
           'gsb_html_text' => 0,
-          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
+          'gsb_wysiwyg_text' => 0,
           'image_resource_caption' => 0,
           'markdown' => 0,
           'plain_text' => 0,
@@ -1009,6 +1034,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
+            'act' => array(
+              'weight' => 0,
+            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -1344,9 +1372,10 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
+          'act' => 'act',
           'full_html' => 0,
           'gsb_html_text' => 0,
-          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
+          'gsb_wysiwyg_text' => 0,
           'image_resource_caption' => 0,
           'markdown' => 0,
           'plain_text' => 0,
@@ -1356,6 +1385,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
+            'act' => array(
+              'weight' => 0,
+            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -1510,9 +1542,10 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
+          'act' => 'act',
           'full_html' => 0,
           'gsb_html_text' => 0,
-          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
+          'gsb_wysiwyg_text' => 0,
           'image_resource_caption' => 0,
           'markdown' => 0,
           'plain_text' => 0,
@@ -1522,6 +1555,9 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
+            'act' => array(
+              'weight' => 0,
+            ),
             'full_html' => array(
               'weight' => 1,
             ),
