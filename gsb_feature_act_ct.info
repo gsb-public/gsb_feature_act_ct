@@ -103,4 +103,3 @@ features[variable][] = pathauto_node_act_pattern
 features[variable][] = workbench_access_node_type_act
 features[variable][] = workbench_moderation_default_state_act
 features[wysiwyg][] = act
-mtime = 1423527524

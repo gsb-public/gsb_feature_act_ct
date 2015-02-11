@@ -92,7 +92,7 @@ function gsb_feature_act_ct_strongarm() {
         'custom_settings' => TRUE,
       ),
       'act_project_by_criteria' => array(
-        'custom_settings' => TRUE,
+        'custom_settings' => FALSE,
       ),
     ),
     'extra_fields' => array(
