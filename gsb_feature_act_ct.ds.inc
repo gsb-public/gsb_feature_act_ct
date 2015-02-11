@@ -333,142 +333,6 @@ function gsb_feature_act_ct_ds_field_settings_info() {
         'conditions' => array(),
       ),
     ),
-    'field_alumni_ref' => array(
-      'formatter_settings' => array(
-        'ft' => array(
-          'func' => 'theme_ds_field_expert',
-          'ow' => TRUE,
-          'ow-el' => 'div',
-          'ow-cl' => '',
-          'ow-def-cl' => TRUE,
-          'ow-at' => '',
-          'ow-def-at' => FALSE,
-        ),
-      ),
-    ),
-    'field_file_unlimited_public' => array(
-      'formatter_settings' => array(
-        'ft' => array(
-          'func' => 'theme_ds_field_expert',
-          'ow' => TRUE,
-          'ow-el' => 'div',
-          'ow-cl' => '',
-          'ow-def-cl' => TRUE,
-          'ow-at' => '',
-          'ow-def-at' => FALSE,
-          'fi' => TRUE,
-          'fi-el' => 'div',
-          'fi-cl' => '',
-          'fi-at' => '',
-          'fi-def-at' => FALSE,
-          'fi-odd-even' => TRUE,
-        ),
-      ),
-    ),
-    'field_image_single_public' => array(
-      'formatter_settings' => array(
-        'ft' => array(
-          'func' => 'theme_ds_field_expert',
-          'ow' => TRUE,
-          'ow-el' => 'div',
-          'ow-cl' => '',
-          'ow-def-cl' => TRUE,
-          'ow-at' => '',
-          'ow-def-at' => FALSE,
-        ),
-      ),
-    ),
-    'field_link_single' => array(
-      'formatter_settings' => array(
-        'ft' => array(
-          'func' => 'theme_ds_field_expert',
-          'ow' => TRUE,
-          'ow-el' => 'div',
-          'ow-cl' => '',
-          'ow-def-cl' => TRUE,
-          'ow-at' => '',
-          'ow-def-at' => FALSE,
-        ),
-      ),
-    ),
-    'field_link_unlimited' => array(
-      'formatter_settings' => array(
-        'ft' => array(
-          'func' => 'theme_ds_field_expert',
-          'ow' => TRUE,
-          'ow-el' => 'div',
-          'ow-cl' => 'cta-wrapper',
-          'ow-def-cl' => TRUE,
-          'ow-at' => '',
-          'ow-def-at' => FALSE,
-          'fis' => TRUE,
-          'fis-el' => 'div',
-          'fis-cl' => 'cta-red-gradient',
-          'fis-at' => '',
-          'fis-def-at' => FALSE,
-          'fi' => TRUE,
-          'fi-el' => 'div',
-          'fi-cl' => 'field-item',
-          'fi-at' => '',
-          'fi-def-at' => FALSE,
-          'fi-odd-even' => FALSE,
-        ),
-      ),
-    ),
-    'field_location' => array(
-      'formatter_settings' => array(
-        'ft' => array(
-          'func' => 'theme_ds_field_expert',
-          'lb' => 'Project Location –',
-          'lb-col' => TRUE,
-          'ow' => TRUE,
-          'ow-el' => 'div',
-          'ow-cl' => '',
-          'ow-def-cl' => TRUE,
-          'ow-at' => '',
-          'ow-def-at' => FALSE,
-        ),
-      ),
-    ),
-    'field_person_fac_ref' => array(
-      'formatter_settings' => array(
-        'ft' => array(
-          'func' => 'theme_ds_field_expert',
-          'ow' => TRUE,
-          'ow-el' => 'div',
-          'ow-cl' => '',
-          'ow-def-cl' => TRUE,
-          'ow-at' => '',
-          'ow-def-at' => FALSE,
-        ),
-      ),
-    ),
-    'field_related_idea_story' => array(
-      'formatter_settings' => array(
-        'ft' => array(
-          'func' => 'theme_ds_field_expert',
-          'ow' => TRUE,
-          'ow-el' => 'div',
-          'ow-cl' => '',
-          'ow-def-cl' => TRUE,
-          'ow-at' => '',
-          'ow-def-at' => FALSE,
-        ),
-      ),
-    ),
-    'field_related_other_unlimited' => array(
-      'formatter_settings' => array(
-        'ft' => array(
-          'func' => 'theme_ds_field_expert',
-          'ow' => TRUE,
-          'ow-el' => 'div',
-          'ow-cl' => '',
-          'ow-def-cl' => TRUE,
-          'ow-at' => '',
-          'ow-def-at' => FALSE,
-        ),
-      ),
-    ),
     'field_act_final_report_outline' => array(
       'formatter_settings' => array(
         'ft' => array(
@@ -684,6 +548,38 @@ function gsb_feature_act_ct_ds_field_settings_info() {
         ),
       ),
     ),
+    'field_alumni_ref' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+    'field_file_unlimited_public' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+          'fi' => TRUE,
+          'fi-el' => 'div',
+          'fi-cl' => '',
+          'fi-at' => '',
+          'fi-def-at' => FALSE,
+          'fi-odd-even' => TRUE,
+        ),
+      ),
+    ),
     'field_image_logo_single_public' => array(
       'formatter_settings' => array(
         'ft' => array(
@@ -697,7 +593,7 @@ function gsb_feature_act_ct_ds_field_settings_info() {
         ),
       ),
     ),
-    'field_link_related_unlimited' => array(
+    'field_image_single_public' => array(
       'formatter_settings' => array(
         'ft' => array(
           'func' => 'theme_ds_field_expert',
@@ -714,6 +610,110 @@ function gsb_feature_act_ct_ds_field_settings_info() {
       'formatter_settings' => array(
         'ft' => array(
           'func' => 'theme_ds_field_expert',
+        ),
+      ),
+    ),
+    'field_link_related_unlimited' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+    'field_link_single' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+    'field_link_unlimited' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => 'cta-wrapper',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+          'fis' => TRUE,
+          'fis-el' => 'div',
+          'fis-cl' => 'cta-red-gradient',
+          'fis-at' => '',
+          'fis-def-at' => FALSE,
+          'fi' => TRUE,
+          'fi-el' => 'div',
+          'fi-cl' => 'field-item',
+          'fi-at' => '',
+          'fi-def-at' => FALSE,
+          'fi-odd-even' => FALSE,
+        ),
+      ),
+    ),
+    'field_location' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'lb' => 'Project Location –',
+          'lb-col' => TRUE,
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+    'field_person_fac_ref' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+    'field_related_idea_story' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+    'field_related_other_unlimited' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
         ),
       ),
     ),
@@ -879,32 +879,20 @@ function gsb_feature_act_ct_ds_layout_settings_info() {
   $ds_layout->layout = 'ds_2col';
   $ds_layout->settings = array(
     'regions' => array(
-      'right' => array(
-        0 => 'related_title',
-        2 => 'field_person_fac_ref',
-        5 => 'field_alumni_ref',
-        7 => 'field_related_idea_story',
-        9 => 'field_related_other_unlimited',
-        12 => 'field_link_related_unlimited',
-        13 => 'field_file_unlimited_public',
-        28 => 'field_link_unlimited',
-        29 => 'field_act_project_team_role',
-        30 => 'group_wrapper_related',
-      ),
       'left' => array(
-        1 => 'title',
-        3 => 'field_link_single',
-        4 => 'field_act_org_location',
+        0 => 'title',
+        2 => 'field_link_single',
+        5 => 'field_act_org_location',
         6 => 'field_image_logo_single_public',
-        8 => 'group_wrapper_act_info',
-        10 => 'field_act_round',
+        9 => 'group_wrapper_act_info',
         11 => 'field_act_organization',
+        12 => 'field_act_round',
+        13 => 'field_location',
         14 => 'field_image_single_public',
-        15 => 'field_location',
-        16 => 'field_act_project_type',
-        17 => 'field_act_issue',
-        18 => 'field_act_project_focus',
-        19 => 'field_act_situation',
+        16 => 'field_act_issue',
+        17 => 'field_act_project_type',
+        18 => 'field_act_situation',
+        19 => 'field_act_project_focus',
         20 => 'field_act_organization_type',
         21 => 'field_act_project_objectives',
         22 => 'field_act_project_overview',
@@ -914,28 +902,40 @@ function gsb_feature_act_ct_ds_layout_settings_info() {
         26 => 'field_act_useful_item',
         27 => 'field_infographic',
       ),
+      'right' => array(
+        1 => 'related_title',
+        3 => 'field_person_fac_ref',
+        4 => 'field_alumni_ref',
+        7 => 'field_related_idea_story',
+        8 => 'field_related_other_unlimited',
+        10 => 'field_link_related_unlimited',
+        15 => 'field_file_unlimited_public',
+        28 => 'field_link_unlimited',
+        29 => 'field_act_project_team_role',
+        30 => 'group_wrapper_related',
+      ),
     ),
     'fields' => array(
-      'related_title' => 'right',
       'title' => 'left',
-      'field_person_fac_ref' => 'right',
+      'related_title' => 'right',
       'field_link_single' => 'left',
-      'field_act_org_location' => 'left',
+      'field_person_fac_ref' => 'right',
       'field_alumni_ref' => 'right',
+      'field_act_org_location' => 'left',
       'field_image_logo_single_public' => 'left',
       'field_related_idea_story' => 'right',
-      'group_wrapper_act_info' => 'left',
       'field_related_other_unlimited' => 'right',
-      'field_act_round' => 'left',
-      'field_act_organization' => 'left',
+      'group_wrapper_act_info' => 'left',
       'field_link_related_unlimited' => 'right',
-      'field_file_unlimited_public' => 'right',
-      'field_image_single_public' => 'left',
+      'field_act_organization' => 'left',
+      'field_act_round' => 'left',
       'field_location' => 'left',
-      'field_act_project_type' => 'left',
+      'field_image_single_public' => 'left',
+      'field_file_unlimited_public' => 'right',
       'field_act_issue' => 'left',
-      'field_act_project_focus' => 'left',
+      'field_act_project_type' => 'left',
       'field_act_situation' => 'left',
+      'field_act_project_focus' => 'left',
       'field_act_organization_type' => 'left',
       'field_act_project_objectives' => 'left',
       'field_act_project_overview' => 'left',
