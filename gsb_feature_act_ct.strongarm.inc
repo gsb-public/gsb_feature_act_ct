@@ -157,7 +157,7 @@ function gsb_feature_act_ct_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_node_act_pattern';
-  $strongarm->value = 'organizations/connect-gsb/act-nonprofits/clients/[node:field_pathauto_title_alias]';
+  $strongarm->value = 'organizations/leverage-gsb/act-nonprofits/clients/[node:field_pathauto_title_alias]';
   $export['pathauto_node_act_pattern'] = $strongarm;
 
   $strongarm = new stdClass();
