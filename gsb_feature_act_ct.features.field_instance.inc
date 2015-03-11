@@ -682,7 +682,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'settings' => array(
           'conditions' => array(),
           'taxonomy_term_link' => 0,
-          'taxonomy_term_separator' => ',',
+          'taxonomy_term_separator' => ', ',
         ),
         'type' => 'ds_taxonomy_separator',
         'weight' => 8,
@@ -693,7 +693,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'settings' => array(
           'conditions' => array(),
           'taxonomy_term_link' => 0,
-          'taxonomy_term_separator' => ',',
+          'taxonomy_term_separator' => ', ',
         ),
         'type' => 'ds_taxonomy_separator',
         'weight' => 5,
@@ -704,7 +704,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'settings' => array(
           'conditions' => array(),
           'taxonomy_term_link' => 0,
-          'taxonomy_term_separator' => ',',
+          'taxonomy_term_separator' => ', ',
         ),
         'type' => 'ds_taxonomy_separator',
         'weight' => 9,
@@ -809,7 +809,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'settings' => array(
           'conditions' => array(),
           'taxonomy_term_link' => 0,
-          'taxonomy_term_separator' => ',',
+          'taxonomy_term_separator' => ', ',
         ),
         'type' => 'ds_taxonomy_separator',
         'weight' => 7,
@@ -820,7 +820,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'settings' => array(
           'conditions' => array(),
           'taxonomy_term_link' => 0,
-          'taxonomy_term_separator' => ',',
+          'taxonomy_term_separator' => ', ',
         ),
         'type' => 'ds_taxonomy_separator',
         'weight' => 4,
@@ -831,7 +831,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'settings' => array(
           'conditions' => array(),
           'taxonomy_term_link' => 0,
-          'taxonomy_term_separator' => ',',
+          'taxonomy_term_separator' => ', ',
         ),
         'type' => 'ds_taxonomy_separator',
         'weight' => 8,
@@ -1172,7 +1172,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'settings' => array(
           'conditions' => array(),
           'taxonomy_term_link' => 0,
-          'taxonomy_term_separator' => ',',
+          'taxonomy_term_separator' => ', ',
         ),
         'type' => 'ds_taxonomy_separator',
         'weight' => 3,
@@ -1183,7 +1183,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'settings' => array(
           'conditions' => array(),
           'taxonomy_term_link' => 0,
-          'taxonomy_term_separator' => ',',
+          'taxonomy_term_separator' => ', ',
         ),
         'type' => 'ds_taxonomy_separator',
         'weight' => 7,
