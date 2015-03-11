@@ -2067,6 +2067,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'label' => 'Link',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_class' => 0,
@@ -2149,6 +2150,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'label' => 'Organization URL',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_class' => 0,
@@ -2231,6 +2233,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'label' => 'CTA',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_class' => 0,

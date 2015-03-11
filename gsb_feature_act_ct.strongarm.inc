@@ -171,7 +171,7 @@ function gsb_feature_act_ct_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'workbench_moderation_default_state_act';
-  $strongarm->value = 'published';
+  $strongarm->value = 'draft';
   $export['workbench_moderation_default_state_act'] = $strongarm;
 
   return $export;
