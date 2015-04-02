@@ -2616,7 +2616,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'node',
     'field_name' => 'field_related_other_unlimited',
-    'label' => 'Publication',
+    'label' => 'Publication or Event',
     'required' => 0,
     'settings' => array(
       'custom_add_another' => '',
@@ -2626,9 +2626,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'widget' => array(
       'active' => 0,
       'module' => 'field_collection',
-      'settings' => array(
-        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
-      ),
+      'settings' => array(),
       'type' => 'field_collection_embed',
       'weight' => 20,
     ),
@@ -2717,7 +2715,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
   t('Project Overview');
   t('Project Status');
   t('Project Type');
-  t('Publication');
+  t('Publication or Event');
   t('Situation');
   t('Story or Announcement');
   t('Taxonomy');
