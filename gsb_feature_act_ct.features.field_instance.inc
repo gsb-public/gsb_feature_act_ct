@@ -2073,7 +2073,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'configurable_class' => 0,
         'configurable_title' => 0,
         'rel' => '',
-        'target' => 'default',
+        'target' => 'user',
         'title' => '',
       ),
       'custom_add_another' => '',
@@ -2098,9 +2098,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'widget' => array(
       'active' => 0,
       'module' => 'link',
-      'settings' => array(
-        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
-      ),
+      'settings' => array(),
       'type' => 'link_field',
       'weight' => 21,
     ),
@@ -2239,7 +2237,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
         'configurable_class' => 0,
         'configurable_title' => 0,
         'rel' => '',
-        'target' => '_blank',
+        'target' => 'user',
         'title' => '',
       ),
       'custom_add_another' => '',
@@ -2264,9 +2262,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'widget' => array(
       'active' => 0,
       'module' => 'link',
-      'settings' => array(
-        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
-      ),
+      'settings' => array(),
       'type' => 'link_field',
       'weight' => 14,
     ),
