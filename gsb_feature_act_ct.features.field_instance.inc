@@ -2612,7 +2612,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'node',
     'field_name' => 'field_related_other_unlimited',
-    'label' => 'Publication or Event',
+    'label' => 'Existing Node Title',
     'required' => 0,
     'settings' => array(
       'custom_add_another' => '',
@@ -2690,6 +2690,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
   t('ACT Round');
   t('Alumni');
   t('CTA');
+  t('Existing Node Title');
   t('Faculty');
   t('Files');
   t('Final Report Outline');
@@ -2711,7 +2712,6 @@ function gsb_feature_act_ct_field_default_field_instances() {
   t('Project Overview');
   t('Project Status');
   t('Project Type');
-  t('Publication or Event');
   t('Situation');
   t('Story or Announcement');
   t('Taxonomy');
