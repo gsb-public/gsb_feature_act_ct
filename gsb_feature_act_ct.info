@@ -73,7 +73,6 @@ features[field_instance][] = node-act-field_act_round
 features[field_instance][] = node-act-field_act_situation
 features[field_instance][] = node-act-field_act_status
 features[field_instance][] = node-act-field_act_useful_item
-features[field_instance][] = node-act-field_alumni_ref
 features[field_instance][] = node-act-field_file_unlimited_public
 features[field_instance][] = node-act-field_image_logo_single_public
 features[field_instance][] = node-act-field_image_single_public
