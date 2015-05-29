@@ -301,10 +301,11 @@ function gsb_feature_act_ct_field_group_info() {
     'children' => array(
       0 => 'field_alumni_ref',
       1 => 'field_file_unlimited_public',
-      2 => 'field_person_fac_ref',
-      3 => 'field_related_idea_story',
-      4 => 'field_related_other_unlimited',
-      5 => 'field_link_related_unlimited',
+      2 => 'field_link_related_unlimited',
+      3 => 'field_person_fac_ref',
+      4 => 'field_related_idea_story',
+      5 => 'field_related_other_unlimited',
+      6 => 'field_person_ref_unlimited',
     ),
     'format_type' => 'fieldset',
     'format_settings' => array(
