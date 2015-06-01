@@ -1651,7 +1651,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'settings' => array(
       'custom_add_another' => '',
       'custom_remove' => '',
-      'description_field' => 0,
+      'description_field' => 1,
       'file_directory' => '',
       'file_extensions' => 'pdf doc docx xlsx xls ppt pptx txt odf ods odp',
       'filefield_paths' => array(
@@ -1681,7 +1681,6 @@ function gsb_feature_act_ct_field_default_field_instances() {
       'active' => 1,
       'module' => 'file',
       'settings' => array(
-        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
         'progress_indicator' => 'throbber',
       ),
       'type' => 'file_generic',
