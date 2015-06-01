@@ -493,23 +493,29 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'node',
     'field_name' => 'field_act_org_location',
-    'label' => 'Organization Location',
+    'label' => 'Organization New Location ',
     'required' => 0,
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
+          'act' => 0,
           'full_html' => 'full_html',
           'gsb_html_text' => 'gsb_html_text',
           'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
           'image_resource_caption' => 'image_resource_caption',
+          'image_text_equivalent' => 0,
           'markdown' => 'markdown',
           'plain_text' => 'plain_text',
+          'sidebar' => 0,
           'slideshow' => 'slideshow',
         ),
         'allowed_formats_toggle' => 0,
         'default_order_toggle' => 0,
         'default_order_wrapper' => array(
           'formats' => array(
+            'act' => array(
+              'weight' => 0,
+            ),
             'full_html' => array(
               'weight' => 1,
             ),
@@ -522,11 +528,17 @@ function gsb_feature_act_ct_field_default_field_instances() {
             'image_resource_caption' => array(
               'weight' => 0,
             ),
+            'image_text_equivalent' => array(
+              'weight' => 0,
+            ),
             'markdown' => array(
               'weight' => 0,
             ),
             'plain_text' => array(
               'weight' => 10,
+            ),
+            'sidebar' => array(
+              'weight' => 0,
             ),
             'slideshow' => array(
               'weight' => 0,
@@ -2691,7 +2703,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
   t('Link');
   t('Logo');
   t('Organization');
-  t('Organization Location');
+  t('Organization New Location ');
   t('Organization Type');
   t('Organization URL');
   t('Organization photo');
