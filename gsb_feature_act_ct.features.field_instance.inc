@@ -2375,68 +2375,6 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_person_fac_ref'
-  $field_instances['node-act-field_person_fac_ref'] = array(
-    'bundle' => 'act',
-    'custom_add_another' => '',
-    'custom_remove' => '',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'act_project_by_criteria' => array(
-        'label' => 'hidden',
-        'module' => 'link',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'link_plain',
-        'weight' => 2,
-      ),
-      'act_project_listing' => array(
-        'label' => 'hidden',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 14,
-      ),
-      'default' => array(
-        'label' => 'hidden',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 2,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'ds_extras_field_template' => '',
-    'entity_type' => 'node',
-    'field_name' => 'field_person_fac_ref',
-    'label' => 'Faculty',
-    'required' => 0,
-    'settings' => array(
-      'custom_add_another' => '',
-      'custom_remove' => '',
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'entityreference',
-      'settings' => array(
-        'match_operator' => 'CONTAINS',
-        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
-        'path' => '',
-        'size' => 120,
-      ),
-      'type' => 'entityreference_autocomplete',
-      'weight' => 17,
-    ),
-    'workbench_access_field' => 0,
-  );
-
   // Exported field_instance: 'node-act-field_person_ref_unlimited'
   $field_instances['node-act-field_person_ref_unlimited'] = array(
     'bundle' => 'act',
@@ -2676,7 +2614,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
   t('ACT Project Team, role');
   t('ACT Round');
   t('CTA');
-  t('Faculty');
+  t('Faculty, Alumni, PhD Student, MSx Fellow, or Staff');
   t('Files');
   t('Final Report Outline');
   t('Infographic');

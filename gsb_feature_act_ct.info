@@ -82,7 +82,6 @@ features[field_instance][] = node-act-field_link_single
 features[field_instance][] = node-act-field_link_unlimited
 features[field_instance][] = node-act-field_location
 features[field_instance][] = node-act-field_pathauto_title_alias
-features[field_instance][] = node-act-field_person_fac_ref
 features[field_instance][] = node-act-field_person_ref_unlimited
 features[field_instance][] = node-act-field_related_idea_story
 features[field_instance][] = node-act-field_related_other_unlimited
