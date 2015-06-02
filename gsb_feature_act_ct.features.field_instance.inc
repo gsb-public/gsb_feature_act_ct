@@ -2477,7 +2477,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'node',
     'field_name' => 'field_person_ref_unlimited',
-    'label' => 'Faculty, Alumni, PhD Student, MSx Fellow, or Staff',
+    'label' => 'People (Faculty, Alumni, PhD Student, MSx Fellow, Staff)',
     'required' => 0,
     'settings' => array(
       'custom_add_another' => '',
@@ -2681,7 +2681,6 @@ function gsb_feature_act_ct_field_default_field_instances() {
   t('ACT Round');
   t('CTA');
   t('Faculty');
-  t('Faculty, Alumni, PhD Student, MSx Fellow, or Staff');
   t('Files');
   t('Final Report Outline');
   t('Infographic');
@@ -2695,6 +2694,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
   t('Organization Type');
   t('Organization URL');
   t('Organization photo');
+  t('People (Faculty, Alumni, PhD Student, MSx Fellow, Staff)');
   t('Project Details');
   t('Project Focus');
   t('Project Location');
