@@ -726,7 +726,7 @@ function gsb_feature_act_ct_ds_custom_fields_info() {
   $ds_field->entities = array(
     'node' => 'node',
   );
-  $ds_field->ui_limit = 'alumni|alumni_name';
+  $ds_field->ui_limit = 'alumni|*';
   $ds_field->properties = array(
     'code' => array(
       'value' => '<a href="[node:url]"><span class="field-name">[node:title]</span><span class="field-degree">[node:field_stanford_degrees_single]</span></a>',
