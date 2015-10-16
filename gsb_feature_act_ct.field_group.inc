@@ -422,7 +422,8 @@ function gsb_feature_act_ct_field_group_info() {
     'format_settings' => array(
       'label' => 'ACT Info',
       'instance_settings' => array(
-        'classes' => '',
+        'id' => '',
+        'classes' => 'group-wrapper-act-info',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',
@@ -456,11 +457,12 @@ function gsb_feature_act_ct_field_group_info() {
     ),
     'format_type' => 'fieldset',
     'format_settings' => array(
-      'formatter' => 'collapsible',
+      'label' => 'Related',
       'instance_settings' => array(
+        'classes' => 'group-wrapper-related',
         'description' => '',
-        'classes' => '',
       ),
+      'formatter' => 'collapsible',
     ),
   );
   $export['group_wrapper_related|node|act|default'] = $field_group;
