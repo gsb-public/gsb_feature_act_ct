@@ -459,10 +459,10 @@ function gsb_feature_act_ct_field_group_info() {
     'format_settings' => array(
       'label' => 'Related',
       'instance_settings' => array(
-        'classes' => 'group-wrapper-related',
+        'classes' => '',
         'description' => '',
       ),
-      'formatter' => 'collapsible',
+      'formatter' => 'collapsed',
     ),
   );
   $export['group_wrapper_related|node|act|default'] = $field_group;
