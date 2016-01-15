@@ -10,7 +10,7 @@
 function gsb_feature_act_ct_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-act-field_act_final_report_outline'
+  // Exported field_instance: 'node-act-field_act_final_report_outline'.
   $field_instances['node-act-field_act_final_report_outline'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -120,7 +120,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_act_issue'
+  // Exported field_instance: 'node-act-field_act_issue'.
   $field_instances['node-act-field_act_issue'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -230,7 +230,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_act_key_conclusions'
+  // Exported field_instance: 'node-act-field_act_key_conclusions'.
   $field_instances['node-act-field_act_key_conclusions'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -340,7 +340,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_act_key_recommendations'
+  // Exported field_instance: 'node-act-field_act_key_recommendations'.
   $field_instances['node-act-field_act_key_recommendations'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -450,7 +450,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_act_org_location'
+  // Exported field_instance: 'node-act-field_act_org_location'.
   $field_instances['node-act-field_act_org_location'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -557,7 +557,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_act_organization'
+  // Exported field_instance: 'node-act-field_act_organization'.
   $field_instances['node-act-field_act_organization'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -667,7 +667,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_act_organization_type'
+  // Exported field_instance: 'node-act-field_act_organization_type'.
   $field_instances['node-act-field_act_organization_type'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -739,7 +739,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_act_project_details_markup'
+  // Exported field_instance: 'node-act-field_act_project_details_markup'.
   $field_instances['node-act-field_act_project_details_markup'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -794,7 +794,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_act_project_focus'
+  // Exported field_instance: 'node-act-field_act_project_focus'.
   $field_instances['node-act-field_act_project_focus'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -866,7 +866,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_act_project_objectives'
+  // Exported field_instance: 'node-act-field_act_project_objectives'.
   $field_instances['node-act-field_act_project_objectives'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -976,7 +976,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_act_project_overview'
+  // Exported field_instance: 'node-act-field_act_project_overview'.
   $field_instances['node-act-field_act_project_overview'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -1086,7 +1086,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_act_project_team_role'
+  // Exported field_instance: 'node-act-field_act_project_team_role'.
   $field_instances['node-act-field_act_project_team_role'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -1146,7 +1146,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_act_project_type'
+  // Exported field_instance: 'node-act-field_act_project_type'.
   $field_instances['node-act-field_act_project_type'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -1209,6 +1209,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
       'active' => 1,
       'module' => 'options',
       'settings' => array(
+        'checkall' => FALSE,
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
       ),
       'type' => 'options_buttons',
@@ -1217,7 +1218,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_act_round'
+  // Exported field_instance: 'node-act-field_act_round'.
   $field_instances['node-act-field_act_round'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -1327,7 +1328,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_act_situation'
+  // Exported field_instance: 'node-act-field_act_situation'.
   $field_instances['node-act-field_act_situation'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -1437,7 +1438,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_act_status'
+  // Exported field_instance: 'node-act-field_act_status'.
   $field_instances['node-act-field_act_status'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -1489,6 +1490,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
       'active' => 1,
       'module' => 'options',
       'settings' => array(
+        'checkall' => FALSE,
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
       ),
       'type' => 'options_buttons',
@@ -1497,7 +1499,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_act_useful_item'
+  // Exported field_instance: 'node-act-field_act_useful_item'.
   $field_instances['node-act-field_act_useful_item'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -1607,7 +1609,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_file_unlimited_public'
+  // Exported field_instance: 'node-act-field_file_unlimited_public'.
   $field_instances['node-act-field_file_unlimited_public'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -1689,7 +1691,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_image_logo_single_public'
+  // Exported field_instance: 'node-act-field_image_logo_single_public'.
   $field_instances['node-act-field_image_logo_single_public'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -1779,7 +1781,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_image_single_public'
+  // Exported field_instance: 'node-act-field_image_single_public'.
   $field_instances['node-act-field_image_single_public'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -1869,7 +1871,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_infographic'
+  // Exported field_instance: 'node-act-field_infographic'.
   $field_instances['node-act-field_infographic'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -1959,7 +1961,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_link_related_unlimited'
+  // Exported field_instance: 'node-act-field_link_related_unlimited'.
   $field_instances['node-act-field_link_related_unlimited'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -2040,7 +2042,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_link_single'
+  // Exported field_instance: 'node-act-field_link_single'.
   $field_instances['node-act-field_link_single'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -2123,7 +2125,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_link_unlimited'
+  // Exported field_instance: 'node-act-field_link_unlimited'.
   $field_instances['node-act-field_link_unlimited'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -2204,7 +2206,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_location'
+  // Exported field_instance: 'node-act-field_location'.
   $field_instances['node-act-field_location'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -2314,7 +2316,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_pathauto_title_alias'
+  // Exported field_instance: 'node-act-field_pathauto_title_alias'.
   $field_instances['node-act-field_pathauto_title_alias'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -2375,7 +2377,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_person_ref_unlimited'
+  // Exported field_instance: 'node-act-field_person_ref_unlimited'.
   $field_instances['node-act-field_person_ref_unlimited'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -2392,7 +2394,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
       ),
       'default' => array(
         'label' => 'hidden',
-        'module' => 'entityreference',
+        'module' => 'gsb_feature_existing_node_list_fpp',
         'settings' => array(
           'conditions' => array(),
           'links' => 0,
@@ -2432,7 +2434,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_related_idea_story'
+  // Exported field_instance: 'node-act-field_related_idea_story'.
   $field_instances['node-act-field_related_idea_story'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -2455,7 +2457,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
       ),
       'default' => array(
         'label' => 'hidden',
-        'module' => 'entityreference',
+        'module' => 'gsb_feature_existing_node_list_fpp',
         'settings' => array(
           'conditions' => array(),
           'links' => 0,
@@ -2496,7 +2498,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_related_other_unlimited'
+  // Exported field_instance: 'node-act-field_related_other_unlimited'.
   $field_instances['node-act-field_related_other_unlimited'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -2554,7 +2556,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-act-field_taxonomy_markup'
+  // Exported field_instance: 'node-act-field_taxonomy_markup'.
   $field_instances['node-act-field_taxonomy_markup'] = array(
     'bundle' => 'act',
     'custom_add_another' => '',
@@ -2614,7 +2616,6 @@ function gsb_feature_act_ct_field_default_field_instances() {
   t('ACT Project Team, role');
   t('ACT Round');
   t('CTA');
-  t('Faculty, Alumni, PhD Student, MSx Fellow, or Staff');
   t('Files');
   t('Final Report Outline');
   t('Infographic');
