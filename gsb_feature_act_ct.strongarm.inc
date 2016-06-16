@@ -98,7 +98,7 @@ function gsb_feature_act_ct_strongarm() {
     'extra_fields' => array(
       'form' => array(
         'metatags' => array(
-          'weight' => '20',
+          'weight' => '21',
         ),
         'title' => array(
           'weight' => '1',

@@ -2556,6 +2556,89 @@ function gsb_feature_act_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
+  // Exported field_instance: 'node-act-field_search_field'.
+  $field_instances['node-act-field_search_field'] = array(
+    'bundle' => 'act',
+    'custom_add_another' => '',
+    'custom_remove' => '',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'act_project_listing' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'default' => array(
+        'label' => 'above',
+        'module' => 'concat_field',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'concat_field_blank',
+        'weight' => 29,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'node',
+    'field_name' => 'field_search_field',
+    'label' => 'Search field',
+    'required' => 0,
+    'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
+      'selected_fields' => array(
+        'concat_field_entity_label' => 'concat_field_entity_label',
+        'field_act_final_report_outline' => 'field_act_final_report_outline',
+        'field_act_issue' => 'field_act_issue',
+        'field_act_key_conclusions' => 'field_act_key_conclusions',
+        'field_act_key_recommendations' => 'field_act_key_recommendations',
+        'field_act_org_location' => 'field_act_org_location',
+        'field_act_organization' => 'field_act_organization',
+        'field_act_organization_type' => 'field_act_organization_type',
+        'field_act_project_details_markup' => 0,
+        'field_act_project_focus' => 'field_act_project_focus',
+        'field_act_project_objectives' => 'field_act_project_objectives',
+        'field_act_project_overview' => 'field_act_project_overview',
+        'field_act_project_team_role' => 'field_act_project_team_role',
+        'field_act_project_type' => 0,
+        'field_act_round' => 0,
+        'field_act_situation' => 'field_act_situation',
+        'field_act_status' => 0,
+        'field_act_useful_item' => 'field_act_useful_item',
+        'field_file_unlimited_public' => 0,
+        'field_image_logo_single_public' => 0,
+        'field_image_single_public' => 0,
+        'field_infographic' => 0,
+        'field_link_related_unlimited' => 0,
+        'field_link_single' => 0,
+        'field_link_unlimited' => 0,
+        'field_location' => 'field_location',
+        'field_pathauto_title_alias' => 0,
+        'field_person_ref_unlimited' => 0,
+        'field_related_idea_story' => 0,
+        'field_related_other_unlimited' => 0,
+        'field_taxonomy_markup' => 0,
+      ),
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'concat_field',
+      'settings' => array(),
+      'type' => 'concat_field_default',
+      'weight' => 20,
+    ),
+    'workbench_access_field' => 0,
+  );
+
   // Exported field_instance: 'node-act-field_taxonomy_markup'.
   $field_instances['node-act-field_taxonomy_markup'] = array(
     'bundle' => 'act',
@@ -2638,6 +2721,7 @@ function gsb_feature_act_ct_field_default_field_instances() {
   t('Project Status');
   t('Project Type');
   t('Publication or Event');
+  t('Search field');
   t('Situation');
   t('Story or Announcement');
   t('Taxonomy');

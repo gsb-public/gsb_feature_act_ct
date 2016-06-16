@@ -8,7 +8,7 @@
  * Implements hook_field_group_info().
  */
 function gsb_feature_act_ct_field_group_info() {
-  $export = array();
+  $field_groups = array();
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -35,7 +35,7 @@ function gsb_feature_act_ct_field_group_info() {
       ),
     ),
   );
-  $export['group_final_report_outline|node|act|form'] = $field_group;
+  $field_groups['group_final_report_outline|node|act|form'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -62,7 +62,7 @@ function gsb_feature_act_ct_field_group_info() {
       ),
     ),
   );
-  $export['group_issue|node|act|form'] = $field_group;
+  $field_groups['group_issue|node|act|form'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -89,7 +89,7 @@ function gsb_feature_act_ct_field_group_info() {
       ),
     ),
   );
-  $export['group_key_conclusions|node|act|form'] = $field_group;
+  $field_groups['group_key_conclusions|node|act|form'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -116,7 +116,7 @@ function gsb_feature_act_ct_field_group_info() {
       ),
     ),
   );
-  $export['group_key_recommendations|node|act|form'] = $field_group;
+  $field_groups['group_key_recommendations|node|act|form'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -143,7 +143,7 @@ function gsb_feature_act_ct_field_group_info() {
       ),
     ),
   );
-  $export['group_organization_type|node|act|form'] = $field_group;
+  $field_groups['group_organization_type|node|act|form'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -170,7 +170,7 @@ function gsb_feature_act_ct_field_group_info() {
       ),
     ),
   );
-  $export['group_organization|node|act|form'] = $field_group;
+  $field_groups['group_organization|node|act|form'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -203,7 +203,7 @@ function gsb_feature_act_ct_field_group_info() {
       ),
     ),
   );
-  $export['group_project_details|node|act|form'] = $field_group;
+  $field_groups['group_project_details|node|act|form'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -230,7 +230,7 @@ function gsb_feature_act_ct_field_group_info() {
       ),
     ),
   );
-  $export['group_project_focus|node|act|form'] = $field_group;
+  $field_groups['group_project_focus|node|act|form'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -257,7 +257,7 @@ function gsb_feature_act_ct_field_group_info() {
       ),
     ),
   );
-  $export['group_project_objectives|node|act|form'] = $field_group;
+  $field_groups['group_project_objectives|node|act|form'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -284,7 +284,7 @@ function gsb_feature_act_ct_field_group_info() {
       ),
     ),
   );
-  $export['group_project_overview|node|act|form'] = $field_group;
+  $field_groups['group_project_overview|node|act|form'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -299,13 +299,11 @@ function gsb_feature_act_ct_field_group_info() {
     'label' => 'Related Content',
     'weight' => '16',
     'children' => array(
-      0 => 'field_alumni_ref',
-      1 => 'field_file_unlimited_public',
-      2 => 'field_link_related_unlimited',
-      3 => 'field_person_fac_ref',
-      4 => 'field_related_idea_story',
-      5 => 'field_related_other_unlimited',
-      6 => 'field_person_ref_unlimited',
+      0 => 'field_file_unlimited_public',
+      1 => 'field_link_related_unlimited',
+      2 => 'field_related_idea_story',
+      3 => 'field_related_other_unlimited',
+      4 => 'field_person_ref_unlimited',
     ),
     'format_type' => 'fieldset',
     'format_settings' => array(
@@ -317,7 +315,7 @@ function gsb_feature_act_ct_field_group_info() {
       ),
     ),
   );
-  $export['group_related_content|node|act|form'] = $field_group;
+  $field_groups['group_related_content|node|act|form'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -344,7 +342,7 @@ function gsb_feature_act_ct_field_group_info() {
       ),
     ),
   );
-  $export['group_situation|node|act|form'] = $field_group;
+  $field_groups['group_situation|node|act|form'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -370,7 +368,7 @@ function gsb_feature_act_ct_field_group_info() {
       ),
     ),
   );
-  $export['group_taxonomy|node|act|form'] = $field_group;
+  $field_groups['group_taxonomy|node|act|form'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -397,7 +395,7 @@ function gsb_feature_act_ct_field_group_info() {
       ),
     ),
   );
-  $export['group_useful_items|node|act|form'] = $field_group;
+  $field_groups['group_useful_items|node|act|form'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -433,7 +431,7 @@ function gsb_feature_act_ct_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $export['group_wrapper_act_info|node|act|default'] = $field_group;
+  $field_groups['group_wrapper_act_info|node|act|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -467,5 +465,24 @@ function gsb_feature_act_ct_field_group_info() {
   );
   $export['group_wrapper_related|node|act|default'] = $field_group;
 
-  return $export;
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('ACT Info');
+  t('Final Report Outline');
+  t('Issue');
+  t('Key Conclusions');
+  t('Key Recommendations');
+  t('Organization');
+  t('Organization Type');
+  t('Project Details');
+  t('Project Focus');
+  t('Project Objectives');
+  t('Project Overview');
+  t('Related');
+  t('Related Content');
+  t('Situation');
+  t('Taxonomy');
+  t('Useful Items');
+
+  return $field_groups;
 }
