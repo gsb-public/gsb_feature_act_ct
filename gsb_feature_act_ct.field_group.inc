@@ -444,7 +444,7 @@ function gsb_feature_act_ct_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Related',
-    'weight' => '18',
+    'weight' => '16',
     'children' => array(
       0 => 'field_file_unlimited_public',
       1 => 'field_link_related_unlimited',
@@ -457,13 +457,14 @@ function gsb_feature_act_ct_field_group_info() {
     'format_settings' => array(
       'label' => 'Related',
       'instance_settings' => array(
-        'classes' => '',
+        'id' => '',
+        'classes' => 'group-wrapper-related field-group-fieldset',
         'description' => '',
       ),
       'formatter' => 'collapsed',
     ),
   );
-  $export['group_wrapper_related|node|act|default'] = $field_group;
+  $field_groups['group_wrapper_related|node|act|default'] = $field_group;
 
   // Translatables
   // Included for use with string extractors like potx.

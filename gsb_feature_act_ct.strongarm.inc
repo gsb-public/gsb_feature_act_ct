@@ -94,6 +94,75 @@ function gsb_feature_act_ct_strongarm() {
       'act_project_by_criteria' => array(
         'custom_settings' => FALSE,
       ),
+      'print' => array(
+        'custom_settings' => FALSE,
+      ),
+      'compact' => array(
+        'custom_settings' => FALSE,
+      ),
+      'expanded' => array(
+        'custom_settings' => FALSE,
+      ),
+      'event_contacts' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_ctas' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_curriculum' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_curriculum_one' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_curriculum_two' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_director' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_participants_desc' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_participants_intro' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_related' => array(
+        'custom_settings' => FALSE,
+      ),
+      'featured_program' => array(
+        'custom_settings' => FALSE,
+      ),
+      'program_director' => array(
+        'custom_settings' => FALSE,
+      ),
+      'faculty_leadership' => array(
+        'custom_settings' => FALSE,
+      ),
+      'faculty_one' => array(
+        'custom_settings' => FALSE,
+      ),
+      'faculty_teaching_programs' => array(
+        'custom_settings' => FALSE,
+      ),
+      'faculty_two' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_faculty' => array(
+        'custom_settings' => FALSE,
+      ),
+      'guest_speakers_advisors' => array(
+        'custom_settings' => FALSE,
+      ),
+      'main_list' => array(
+        'custom_settings' => FALSE,
+      ),
+      'program_contact' => array(
+        'custom_settings' => FALSE,
+      ),
+      'program_explore_other' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
