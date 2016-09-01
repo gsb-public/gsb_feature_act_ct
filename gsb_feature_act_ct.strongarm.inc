@@ -163,6 +163,9 @@ function gsb_feature_act_ct_strongarm() {
       'program_explore_other' => array(
         'custom_settings' => FALSE,
       ),
+      'field_program_who_should_attend' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
