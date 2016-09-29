@@ -10,7 +10,7 @@
 function gsb_feature_act_ct_taxonomy_default_vocabularies() {
   return array(
     'organization_type' => array(
-      'name' => 'Organization Type',
+      'name' => 'ACT Organization Type',
       'machine_name' => 'organization_type',
       'description' => '',
       'hierarchy' => 0,
