@@ -104,4 +104,5 @@ features[variable][] = node_submitted_act
 features[variable][] = pathauto_node_act_pattern
 features[variable][] = workbench_access_node_type_act
 features[variable][] = workbench_moderation_default_state_act
+features[variable][] = xmlsitemap_settings_node_act
 features[wysiwyg][] = act
